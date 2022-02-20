@@ -8,26 +8,19 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\14029\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kelsey Lau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\14029\\Desktop\\Programming\\gameDev\\Godot\\pearlhacks2022project\\Pearlhacks2022Project.csproj",
+      "projectUniqueName": "C:\\Users\\Kelsey Lau\\Documents\\kelsey-lau-code\\pearlhacks2022project\\Pearlhacks2022Project.csproj",
       "projectName": "Pearlhacks2022Project",
-      "projectPath": "C:\\Users\\14029\\Desktop\\Programming\\gameDev\\Godot\\pearlhacks2022project\\Pearlhacks2022Project.csproj",
-      "packagesPath": "C:\\Users\\14029\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\14029\\Desktop\\Programming\\gameDev\\Godot\\pearlhacks2022project\\.mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\Kelsey Lau\\Documents\\kelsey-lau-code\\pearlhacks2022project\\Pearlhacks2022Project.csproj",
+      "packagesPath": "C:\\Users\\Kelsey Lau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kelsey Lau\\Documents\\kelsey-lau-code\\pearlhacks2022project\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\14029\\NuGet.Config",
-        "C:\\Users\\14029\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Kelsey Lau\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net472"
@@ -50,7 +43,7 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

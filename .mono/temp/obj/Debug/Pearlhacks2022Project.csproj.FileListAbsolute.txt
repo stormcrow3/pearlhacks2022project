@@ -7,3 +7,12 @@ C:\Users\14029\Desktop\Programming\gameDev\Godot\pearlhacks2022project\.mono\tem
 C:\Users\14029\Desktop\Programming\gameDev\Godot\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.csproj.CoreCompileInputs.cache
 C:\Users\14029\Desktop\Programming\gameDev\Godot\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.dll
 C:\Users\14029\Desktop\Programming\gameDev\Godot\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.pdb
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\bin\Debug\Pearlhacks2022Project.dll
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\bin\Debug\Pearlhacks2022Project.pdb
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.csproj.AssemblyReference.cache
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.AssemblyInfoInputs.cache
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.AssemblyInfo.cs
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.csproj.CoreCompileInputs.cache
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.dll
+C:\Users\Kelsey Lau\Documents\kelsey-lau-code\pearlhacks2022project\.mono\temp\obj\Debug\Pearlhacks2022Project.pdb
