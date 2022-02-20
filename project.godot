@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Pearlhacks2022Project"
-run/main_scene="res://Block.tscn"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 
 [physics]

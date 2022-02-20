@@ -16,6 +16,7 @@ public class main : Node2D
 	float distanceY = 0;
 	int incrementTick = 0;
 	float limit = 500;
+	float maxLimit = 500;
 	int row = 0;
 	
 	public override void _Ready()
@@ -24,7 +25,7 @@ public class main : Node2D
 		geo.Position =new Vector2(450,0);
 		geo.Call("activate");
 
-		GD.Print("It tickedagain!! Tick Number: " + incrementTick);
+		//GD.Print("It tickedagain!! Tick Number: " + incrementTick);
 
 		this.AddChild(geo); 
  
@@ -35,7 +36,7 @@ public class main : Node2D
 	{
 		if(@event is InputEventMouseButton mouseEvent){
 			GD.Print("reached mouse");   
-			geo.Call("moving", incrementTick);
+			//geo.Call("moving", incrementTick);
 
 		}
 	}
@@ -44,12 +45,12 @@ public class main : Node2D
 	private void _on_Timer_timeout()
 	{
 		//Put in message to test the timer, can remove later
-		GD.Print("It ticked!! Tick Number: " + incrementTick);
+		//GD.Print("It ticked!! Tick Number: " + incrementTick);
 		incrementTick++;
 		
 		// keep track of distanced traveled using the timer
 		if(distanceY <= limit){
-			distanceY = incrementTick * 10;
+			distanceY = incrementTick * 15;
 			geo.Position = new Vector2(distanceX,distanceY);
 
 		} else {
@@ -59,10 +60,7 @@ public class main : Node2D
 			distanceX = 450;
 			distanceY = 0;
 			incrementTick = 0;
-			row += 1;
-			if (row == 5){
-				limit -= 32;
-			}
+			limit = maxLimit;
 
 			geo.Position = new Vector2(distanceX,distanceY);
 			this.AddChild(geo);
@@ -93,8 +91,15 @@ public class main : Node2D
 	 }
 
 	 if(Input.IsKeyPressed((int)KeyList.Space)){
-		 limit-= 32;
+		limit-= 50;
 	 }
+	
+	/*if(Input.IsKeyPressed((int)KeyList.S)){
+		$Timer.set_wait_time(0.5f);
+	}
+	else{
+		$Timer.set_wait_time(1f);
+	}*/
 
  }
 
