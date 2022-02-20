@@ -1,16 +1,19 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Block.tscn" type="PackedScene" id=1]
+[ext_resource path="res://geo.cs" type="Script" id=2]
 
 [node name="Geometry2" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="Block" parent="." instance=ExtResource( 1 )]
+position = Vector2( -17, -16 )
 
 [node name="Block2" parent="." instance=ExtResource( 1 )]
-offset = Vector2( 32, 0 )
+position = Vector2( 15, -16 )
 
 [node name="Block3" parent="." instance=ExtResource( 1 )]
-offset = Vector2( 0, 32 )
+position = Vector2( 15, 16 )
 
 [node name="Block4" parent="." instance=ExtResource( 1 )]
-offset = Vector2( 32, 32 )
+position = Vector2( -17, 16 )
